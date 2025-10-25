@@ -13,8 +13,9 @@ imageio-ffmpeg==0.5.1
 safetensors==0.4.3
 gradio==5.0.0
 fastapi
-uvicorn
+uvicorn[standard]
+pydantic
 torch
-transformers
 diffusers
-opencv-python
+transformers
+accelerate
